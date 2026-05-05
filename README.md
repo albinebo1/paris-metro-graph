@@ -14,29 +14,10 @@ This project models the Paris public transit system as a directed graph, enablin
 - **Walking transfers** between nearby stations
 - Custom ADT implementations (Stack, Queue, Dictionary, List)
 
-## Structure
-
-```
-src/
-├── ADTPackage/          # Abstract data type implementations
-│   ├── DictionaryInterface.java
-│   ├── SortedLinkedDictionary.java
-│   ├── LinkedListWithIterator.java
-│   ├── LinkedQueue.java
-│   ├── MyStack.java
-│   └── ...
-└── GraphPackage/        # Graph and transit-specific classes
-    ├── DirectedGraph.java
-    ├── Vertex.java
-    ├── Station.java
-    ├── WalkingEdge.java
-    └── ...
-```
-
 ## Data Files
 
 - `Paris_RER_Metro_v2.csv` - Station and route data
-- `walk_edges.txt` - Walking connections between nearby stations
+- `walk_edges.txt` - Test walking connections between nearby stations
 
 ## Key Algorithms
 
